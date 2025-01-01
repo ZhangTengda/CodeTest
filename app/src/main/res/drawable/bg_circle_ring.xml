@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/transparent" /> <!-- 设置填充颜色为透明 -->
+    <stroke
+        android:width="1dp"
+        android:color="#aaabab">
+    </stroke> <!-- 圆弧线条宽度 -->
+
+    <!-- 左上角圆弧半径，这里设置较大值形成半圆效果 -->
+    <corners
+        android:topLeftRadius="15dp"
+        android:topRightRadius="15dp"
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"/>
+    <!-- 右上角圆弧半径，同理 -->
+</shape>
