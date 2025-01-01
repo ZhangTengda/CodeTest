@@ -48,7 +48,7 @@ dependencies {
 
     implementation(Deps.retrofit)
     implementation(Deps.retrofitGsonConverter)
-    implementation(Deps.okhttp)
+    api(Deps.okhttp)
     implementation(Deps.okhttpLoggingInterceptor)
 
     implementation(Deps.preferences)
