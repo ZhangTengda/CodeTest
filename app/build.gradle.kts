@@ -79,10 +79,6 @@ android {
 //        }
 //    }
 
-
-
-
-
     buildFeatures {
         //noinspection DataBindingWithoutKapt
         dataBinding = true
@@ -134,4 +130,9 @@ dependencies {
 
     implementation("androidx.room:room-runtime:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
+
+    implementation("com.google.code.gson:gson:2.10.1") //Gson
+
+    implementation("androidx.emoji2:emoji2:1.5.0") //Gson
+
 }
